@@ -1,0 +1,6 @@
+N, L = map(int, input().split())
+S = [input() for i in range(N)]
+
+res = sorted(S)
+
+print("".join(res))
